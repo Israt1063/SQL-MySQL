@@ -1,0 +1,87 @@
+SQL
+What is Database?
+Database is a collection of interrelated data.
+A software application used to manage our DB is called DBMS (Database Management System)
+Types of Databases:
+	1.Relational ->MySQL,Oracle,SQLServer
+		-Data stored in tables
+	2.Non-relational (NoSQL) -> mongoDB
+		-data not stored in tables
+What is SQL?
+SQL is Structured Query Language - used to store, manipulate and retrieve data from RDBMS.(It is not a database, it is a language used to interact with database)
+It is used to perform CRUD operations :
+	-Create
+	-Read
+	-Update
+	-Delete
+SQL Data Types
+In SQL, data types define the kind of data that can be stored in a column or variable.
+	-VARCHAR-> String ->VARCHAR(50)
+	-INT 
+	-FLOAT
+	-DOUBLE
+	-BOOLEAN
+	-DATE
+	-TIME
+	-YEAR
+	-BIT->BIT(2)
+
+Types of SQL Commands:
+
+DDL (Data Definition Language) : create, alter, rename, truncate & drop
+
+DML (Data Manipulation Language) : select, insert, update & delete
+
+DCL (Data Control Language) : grant & revoke permission to users
+
+DQL (Data Query Language) : select
+
+TCL (Transaction Control Language) : start transaction, commit, rollback etc.
+
+Primary Key->(a unique id)
+There is only 1 PK & it should be NOT null.
+
+Foreign Key->A foreign key is a column (or set of columns) in a table that refers to the primary key in another table.
+FKs can have duplicate & null values.
+
+Constraints:
+	-NOT NULL:columns cannot have a null value
+	-UNIQUE:all values in column are different
+	-PRIMARY KEY:makes a column unique & not null but used only for one
+	-FOREIGN KEY: prevent actions that would destroy links between tables
+	-DEFAULT: sets the default value of a column
+	-CHECK: it can limit the values allowed in a column
+
+Where Clause:
+Arithmetic Operators : +(addition) , -(subtraction),*(multiplication), /(division), %(modulus)
+
+Using Operators in WHERE
+
+Comparison Operators : = (equal to), != (not equal to), > , >=, <, <=
+
+Logical Operators : AND, OR , NOT, IN, BETWEEN, ALL, LIKE, ANY
+
+Bitwise Operators : & (Bitwise AND), | (Bitwise OR)
+
+Aggregare functions:
+Aggregare functions perform a calculation on a set of values, and return a single value.
+COUNT( )
+MAX( )
+MIN( )
+SUM( )
+AVG( )
+
+General Order:
+-SELECT column(s)
+-FROM table_name
+-WHERE condition
+-GROUP BY column(s)
+-HAVING condition
+-ORDER BY column(s) ASC;
+
+Joins in SQL:
+Join is used to combine rows from two or more tables, based on a related column between them.
+-Inner Join
+-Left Join
+-Right Join
+-Full Join

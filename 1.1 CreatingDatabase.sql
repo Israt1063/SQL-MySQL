@@ -1,0 +1,12 @@
+CREATE DATABASE SectionH;
+/*
+CREATE DATABASE db_name;
+CREATE DATABASE IF NOT EXISTS SectionH;
+*/
+
+/*
+SHOW DATABASES;
+SHOW TABLES;
+*/
+
+-- Next 'Delete Database '
