@@ -90,3 +90,12 @@ This repository contains a comprehensive collection of **SQL** practice files an
 - **Name**: Israt Jahan  
 - **GitHub**: [Israt1063](https://github.com/Israt1063)
 
+Jekono project e database part smoothly integrate korar jonno, ei kichu steps follow korte paren:
+Database Select Kora: Prothome project-er requirement bujhe relational (MySQL, PostgreSQL) ba non-relational (MongoDB, Firebase) database choose korben.
+Schema Design: Database table ba collection design korben, jate information structured vabe thake.
+ORM/Query Builder Use Kora: Backend framework-er built-in ORM (Laravel Eloquent, Django ORM) ba query builder use korle coding easy hoy.
+Database Connectivity: Right credentials use kore database connect korben—environment file (.env) e credentials rakha valo practice.
+Migration & Seeding: Laravel, Django, Rails moto frameworks e migration & seeding system ache—jeta use kore database structure easily setup korte parben.
+Security & Optimization: SQL injection protection, indexing, caching—ei factors consider korben jate performance smooth thake.
+
+
